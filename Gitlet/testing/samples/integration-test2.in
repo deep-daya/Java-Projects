@@ -1,0 +1,56 @@
+I prelude1.inc
++ whatisupdog.file whatisup.txt
++ reeeeeeeeee.txt wug.txt
+> add whatisupdog.file
+<<<
+> add reeeeeeeeee.txt
+<<<
+> commit "Meme commit bois"
+<<<
+> branch other
+<<<
++ eff.txt wug2.txt
+> add eff.txt
+<<<
+> rm reeeeeeeeee.txt
+<<<
+> commit "Adjusted to make less memey"
+<<<
+> checkout other
+<<<
+> rm whatisupdog.file
+<<<
++ wutangclan.txt wug3.txt
+> add wutangclan.txt
+<<<
+> commit "SIKEEEEEE Fooled Ya"
+<<<
+> checkout master
+<<<
+> merge other
+<<<
+* whatisupdog.file
+* reeeeeeeeee.txt
+= eff.txt wug2.txt
+= wutangclan.txt wug3.txt
+> log
+===
+${COMMIT_HEAD}
+Merged other into master.
+
+${ARBLINES}
+<<<*
+> status
+=== Branches ===
+\*master
+other
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<*

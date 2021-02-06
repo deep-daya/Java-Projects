@@ -1,0 +1,32 @@
+# Test status with new branch creation and 2 files added
+I setup1.inc
+> rm f.txt
+<<<
+> branch other
+<<<
++ h.txt wug2.txt
++ k.txt wug3.txt
+> add h.txt
+<<<
+> add k.txt
+<<<
+> status
+=== Branches ===
+\*master
+other
+
+=== Staged Files ===
+g.txt
+h.txt
+k.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+${ARBLINES}
+
+<<<*
+# File f.txt wasn't traceeked.
+= f.txt wug.txt

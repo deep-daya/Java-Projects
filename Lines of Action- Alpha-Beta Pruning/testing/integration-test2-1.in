@@ -1,0 +1,32 @@
+# Test response to winnable setup.
+#* java -ea loa.Main
+seed 123478
+manual White
+b1-b3
+h6-f8
+b3-b1
+h5-f7
+b1-d3
+f8-g7
+d1-e2
+h2-h6
+d3-d5
+h3-f1
+c8-h8
+h6-f8
+e1-g3
+f1-f4
+d5-e4
+h4-f6
+d8-f6
+a2-d5
+e4-g6
+f4-d4
+f6-e7
+d4-b4
+e7-f6
+a7-c5
+dump
+auto Black
+auto White
+#*move/win+

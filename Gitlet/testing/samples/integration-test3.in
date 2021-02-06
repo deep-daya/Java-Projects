@@ -1,0 +1,26 @@
+I prelude1.inc
++ whoisgamora.txt wug.txt
++ reeeee.txt notwug.txt
+> add whoisgamora.txt
+<<<
+> add reeeee.txt
+<<<
+> commit "Let's test this commit."
+<<<
++ fatherofgamora.txt whatisup.txt
+> add fatherofgamora.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+fatherofgamora.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
